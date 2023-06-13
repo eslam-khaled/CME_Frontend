@@ -1,0 +1,60 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  
+    .page-link {
+      padding: 5px 10px;
+      margin: 0 5px;
+      background-color: #f2f2f2;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  
+    .page-link.active {
+      background-color: #4285f4;
+      color: #fff;
+    }
+  }
+  
+  .room-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  
+    .room-details {
+      margin-left: 10px;
+  
+      h3 {
+        margin-top: 0;
+      }
+  
+      p {
+        margin: 0;
+      }
+    }
+  }
+  
+  // get-all-rooms.component.scss
+
+table {
+    width: 100%;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody td {
+    vertical-align: middle;
+  }
+  
